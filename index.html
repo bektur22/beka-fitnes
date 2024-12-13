@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fithome</title>
+
+  <!-- 
+    - favicon
+  -->
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Catamaran:wght@600;700;800;900&family=Rubik:wght@400;500;800&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <!-- <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+  <link rel="preload" as="image" href="./assets/images/hero-circle-one.png">
+  <link rel="preload" as="image" href="./assets/images/hero-circle-two.png">
+  <link rel="preload" as="image" href="./assets/images/heart-rate.svg">
+  <link rel="preload" as="image" href="./assets/images/calories.svg"> -->
+
+</head>
+
+<body id="top">
+
+  <header class="header" data-header>
+    <div class="container">
+  
+      <a href="#" class="logo">
+  
+        <span class="span">Fithome</span>
+      </a>
+  
+      <nav class="navbar" data-navbar>
+  
+        <button class="nav-close-btn" aria-label="закрыть меню" data-nav-toggler>
+          <ion-icon name="close-sharp" aria-hidden="true"></ion-icon>
+        </button>
+  
+        <ul class="navbar-list">
+  
+          <li>
+            <a href="#home" class="navbar-link active" data-nav-link>Главная</a>
+          </li>
+  
+          <li>
+            <a href="#about" class="navbar-link" data-nav-link>О нас</a>
+          </li>
+  
+          <li>
+            <a href="#class" class="navbar-link" data-nav-link>Классы</a>
+          </li>
+  
+         
+  
+          <li>
+            <a href="#footer" class="navbar-link" data-nav-link>Контакты</a>
+          </li>
+  
+        </ul>
+  
+      </nav>
+      <a href="https://wa.me/702494171" class="btn btn-secondary" target="_blank">Чат с оператором</a>
+
+  
+      <button class="nav-open-btn" aria-label="открыть меню" data-nav-toggler>
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </button>
+  
+    </div>
+  </header>
+  
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero bg-dark has-after has-bg-image" id="home" aria-label="герой" data-section
+      style="background-image: url('./assets/images/hero-bg.png')">
+      <div class="container">
+
+        <div class="hero-content">
+
+          <p class="hero-subtitle">
+            <strong class="strong">Лучший</strong> фитнес-клуб
+          </p>
+
+          <h1 class="h1 hero-title">Работай усердно, чтобы жить лучше</h1>
+
+          <p class="section-text">
+            Мы поможем вам достичь ваших целей. Присоединяйтесь и начните путь к здоровой жизни!
+          </p>
+          
+
+         
+
+        </div>
+
+        <div class="hero-banner">
+
+          <img src="./assets/images/hero-banner.png" width="660" height="753" alt="герой баннер" class="w-100">
+
+       
+        </div>
+
+      </div>
+    </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about" aria-label="о нас">
+        <div class="container">
+      
+          <div class="about-banner has-after">
+            <img src="./assets/images/about-banner.png" width="660" height="648" loading="lazy" alt="баннер о нас"
+              class="w-100">
+      
+       
+      
+          
+          </div>
+      
+          <div class="about-content">
+      
+            <p class="section-subtitle">О нас</p>
+      
+            <h2 class="h2 section-title">Добро пожаловать в наш фитнес-зал</h2>
+      
+            <p class="section-text">
+              Мы создаем комфортные условия для достижения ваших спортивных целей. Наши тренеры помогут вам достичь результатов быстро и эффективно.
+            </p>
+          
+            <p class="section-text">
+              В нашем зале вы найдете современное оборудование, профессиональных тренеров и дружелюбную атмосферу, чтобы ваши тренировки стали максимально комфортными.
+            </p>
+      
+            <div class="wrapper">
+      
+              <div class="about-coach">
+      
+                <figure class="coach-avatar">
+                  <img src="./assets/images/about-coach.jpg" width="65" height="65" loading="lazy" alt="Тренер">
+                </figure>
+      
+                <div>
+                  <h3 class="h3 coach-name">Бектур Дурусбеков</h3>
+      
+                  <p class="coach-title">Наш тренер</p>
+                </div>
+      
+              </div>
+      
+              <a href="./men.html" class="btn btn-primary">Узнать больше</a>
+      
+            </div>
+      
+          </div>
+      
+        </div>
+      </section>
+      
+
+
+
+
+
+      <!-- 
+        - #VIDEO
+      -->
+
+      <section class="section video" aria-label="видео">
+        <div class="container">
+      
+          <div class="video-card has-before has-bg-image"
+            >
+      
+            <iframe width="100%" height="100%" src="https://www.youtube.com/embed/ms35epAFCz4?si=ZcE4jUEs_56jBtGZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          </div>
+      
+        </div>
+      </section>
+      
+
+
+
+      <!-- 
+        - #CLASS
+      -->
+
+      <section class="section class bg-dark has-bg-image" id="class" aria-label="класс"
+      style="background-image: url('./assets/images/classes-bg.png')">
+      <div class="container">
+    
+        <p class="section-subtitle">Наши занятия</p>
+    
+        <h2 class="h2 section-title text-center">Фитнес-классы для любой цели</h2>
+    
+        <ul class="class-list has-scrollbar">
+    
+          <li class="scrollbar-item">
+            <div class="class-card">
+    
+              <figure class="card-banner img-holder" style="--width: 416; --height: 240;">
+                <img src="./assets/images/class-1.jpg" width="416" height="240" loading="lazy" alt="Силовые тренировки"
+                  class="img-cover">
+              </figure>
+    
+              <div class="card-content">
+    
+                <div class="title-wrapper">
+                  <img src="./assets/images/class-icon-1.png" width="52" height="52" aria-hidden="true" alt=""
+                    class="title-icon">
+    
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Силовые тренировки</a>
+                  </h3>
+                </div>
+    
+                <p class="card-text">
+                  Свободное место ограничено, не упустите шанс начать.
+                </p>
+    
+                <div class="card-progress">
+    
+                
+    
+                </div>
+    
+              </div>
+    
+            </div>
+          </li>
+    
+          <li class="scrollbar-item">
+            <div class="class-card">
+    
+              <figure class="card-banner img-holder" style="--width: 416; --height: 240;">
+                <img src="./assets/images/class-2.jpg" width="416" height="240" loading="lazy" alt="Кардио и сила"
+                  class="img-cover">
+              </figure>
+    
+              <div class="card-content">
+    
+                <div class="title-wrapper">
+                  <img src="./assets/images/class-icon-2.png" width="52" height="52" aria-hidden="true" alt=""
+                    class="title-icon">
+    
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Кардио и сила</a>
+                  </h3>
+                </div>
+    
+                <p class="card-text">
+                  Программа для повышения выносливости и силы.
+                </p>
+    
+                <div class="card-progress">
+    
+              
+    
+                </div>
+    
+              </div>
+    
+            </div>
+          </li>
+    
+          <li class="scrollbar-item">
+            <div class="class-card">
+    
+              <figure class="card-banner img-holder" style="--width: 416; --height: 240;">
+                <img src="./assets/images/class-3.jpg" width="416" height="240" loading="lazy" alt="Силовая йога"
+                  class="img-cover">
+              </figure>
+    
+              <div class="card-content">
+    
+                <div class="title-wrapper">
+                  <img src="./assets/images/class-icon-3.png" width="52" height="52" aria-hidden="true" alt=""
+                    class="title-icon">
+    
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Силовая йога</a>
+                  </h3>
+                </div>
+    
+                <p class="card-text">
+                  Улучшите гибкость и равновесие благодаря этой программе.
+                </p>
+    
+                <div class="card-progress">
+    
+               
+    
+                </div>
+    
+              </div>
+    
+            </div>
+          </li>
+    
+          <li class="scrollbar-item">
+            <div class="class-card">
+    
+              <figure class="card-banner img-holder" style="--width: 416; --height: 240;">
+                <img src="./assets/images/class-4.jpg" width="416" height="240" loading="lazy" alt="Фитнес-комплекс"
+                  class="img-cover">
+              </figure>
+    
+              <div class="card-content">
+    
+                <div class="title-wrapper">
+                  <img src="./assets/images/class-icon-4.png" width="52" height="52" aria-hidden="true" alt=""
+                    class="title-icon">
+    
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Фитнес-комплекс</a>
+                  </h3>
+                </div>
+    
+                <p class="card-text">
+                  Включает в себя все основные направления для комплексного развития.
+                </p>
+    
+                <div class="card-progress">
+    
+              
+    
+                
+    
+                </div>
+    
+              </div>
+    
+            </div>
+          </li>
+    
+        </ul>
+    
+      </div>
+    </section>
+    
+
+
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+<section id="contact">
+  <div class="container">
+<div class="contact">
+  <div class="contact-map" style="padding: 50px;">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1803.9123109310458!2d72.83233877221038!3d40.48745099004382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38bdae4097a292ad%3A0x8567fbd6260a879f!2z0J7RiNGB0LrQuNC5INCi0LXRhdC90L7Qu9C-0LPQuNGH0LXRgdC60LjQuSDQo9C90LjQstC10YDRgdC40YLQtdGCINC40LzQtdC90Lgg0JDQutCw0LTQtdC80LjQutCwINCcLiDQnC4g0JDQtNGL0YjQtdCy0LA!5e1!3m2!1sru!2skg!4v1734110336030!5m2!1sru!2skg" width="800" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</div>
+  </div>
+</section>
+    
+      
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer  id="footer"   class="footer">
+
+    <div class="section footer-top bg-dark has-bg-image" style="background-image: url('./assets/images/footer-bg.png')">
+      <div class="container">
+  
+        <div class="footer-brand">
+  
+          <a href="#" class="logo">
+  
+            <span class="span">Fithome</span>
+          </a>
+  
+          <p class="footer-brand-text">
+            Позаботьтесь о своем здоровье с помощью наших профессиональных программ.
+          </p>
+  
+          <div class="wrapper">
+  
+            <img src="./assets/images/footer-clock.png" width="34" height="34" loading="lazy" alt="Часы">
+  
+            <ul class="footer-brand-list">
+  
+              <li>
+                <p class="footer-brand-title">Понедельник - Пятница</p>
+  
+                <p>7:00 - 22:00</p>
+              </li>
+  
+              <li>
+                <p class="footer-brand-title">Суббота - Воскресенье</p>
+  
+                <p>7:00 - 14:00</p>
+              </li>
+  
+            </ul>
+  
+          </div>
+  
+        </div>
+     
+        <ul class="footer-list">
+  
+          <li>
+            <p class="footer-list-title has-before">Наши ссылки</p>
+          </li>
+  
+          <li>
+            <a href="#home" class="footer-link">Главная</a>
+          </li>
+  
+          <li>
+            <a href="#about" class="footer-link">О нас</a>
+          </li>
+  
+          <li>
+            <a href="#class" class="footer-link">Классы</a>
+          </li>
+  
+         
+  
+          <li>
+            <a href="#footer" class="footer-link">Контакты</a>
+          </li>
+  
+        </ul>
+  
+        <ul class="footer-list">
+  
+          <li>
+            <p class="footer-list-title has-before">Контакты</p>
+          </li>
+  
+          <li class="footer-list-item">
+            <div class="icon">
+              <ion-icon name="location" aria-hidden="true"></ion-icon>
+            </div>
+  
+            <address class="address footer-link">
+              город Ош, Юго восток 
+            </address>
+          </li>
+  
+          <li class="footer-list-item">
+            <div class="icon">
+              <ion-icon name="call" aria-hidden="true"></ion-icon>
+            </div>
+  
+            <div>
+              <a href="tel:+996702494171" class="footer-link">702494171</a>
+  
+              <a href="tel:+996702494171" class="footer-link">702494171</a>
+            </div>
+          </li>
+  
+          <li class="footer-list-item">
+            <div class="icon">
+              <ion-icon name="mail" aria-hidden="true"></ion-icon>
+            </div>
+  
+            <div>
+              <a href="mailto:info@fitlife.com" class="footer-link">info@fitlife.com</a>
+  
+              <a href="mailto:services@fitlife.com" class="footer-link">bbbbbfitlife.com</a>
+            </div>
+          </li>
+  
+        </ul>
+  
+        <ul class="footer-list">
+  
+          <li>
+            <p class="footer-list-title has-before">Подписка на новости</p>
+          </li>
+  
+          <li>
+            <form action="" class="footer-form">
+              <input type="email" name="email_address" aria-label="email" placeholder="Электронная почта" required
+                class="input-field">
+  
+              <button type="submit" class="btn btn-primary" aria-label="Отправить">
+                <ion-icon name="chevron-forward-sharp" aria-hidden="true"></ion-icon>
+              </button>
+            </form>
+          </li>
+  
+          <li>
+            <ul class="social-list">
+  
+            
+  
+              <li>
+                <a href="https://www.instagram.com/dv.beka_/?utm_source=ig_web_button_share_sheet" class="social-link">
+                  <ion-icon name="logo-instagram"></ion-icon>
+                </a>
+              </li>
+  
+            
+  
+            </ul>
+          </li>
+  
+        </ul>
+  
+      </div>
+    </div>
+  
+    <div class="footer-bottom">
+      <div class="container">
+  
+        <p class="copyright">
+          &copy; 2024 Fitlife. Все права защищены. Разработчик <a href="#" class="copyright-link">Бектур</a>
+        </p>
+  
+        <ul class="footer-bottom-list">
+  
+          <li>
+            <a href="#" class="footer-bottom-link has-before">Политика конфиденциальности</a>
+          </li>
+  
+          <li>
+            <a href="#" class="footer-bottom-link has-before">Условия использования</a>
+          </li>
+  
+        </ul>
+  
+      </div>
+    </div>
+  
+  </footer>
+  
+
+
+  <a href="#top" class="back-top-btn" aria-label="back to top" data-back-top-btn>
+    <ion-icon name="caret-up-sharp" aria-hidden="true"></ion-icon>
+  </a>
+
+  <script src="./assets/js/script.js" defer></script>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
